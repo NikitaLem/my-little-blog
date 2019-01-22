@@ -23,10 +23,22 @@ export default Vue.extend({
         box-sizing: border-box;
     }
 
+    :root {
+        --main-font-size: 1.6rem;
+        --main-back-color: #ff3d3d;
+        --secondary-color: rgba(255, 255, 255, 0.7);
+    }
+
+    html {
+        font-size: 62.5%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
     html, body {
         padding: 0;
         margin: 0;
         height: 100%;
         width: 100%;
+        overflow-x: hidden;
     }
 </style>
