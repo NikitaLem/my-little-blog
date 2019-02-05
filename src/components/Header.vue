@@ -3,7 +3,7 @@
         <blog-canvas
             :circle-max-speed="15"
             :circle-size="50"
-            :amount-of-circles="2"
+            :amount-of-circles="3"
         ></blog-canvas>
         <div class="header__title">
             <h1>ULTIMATE HEADER</h1>
